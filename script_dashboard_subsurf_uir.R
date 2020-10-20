@@ -26,3 +26,5 @@ ggplot() + geom_point(data = volve, aes(date,BORE_OIL_VOL,color=WELL_BORE_CODE))
 ggplot() + geom_point(data = volve, aes(date,AVG_DOWNHOLE_PRESSURE,color=WELL_BORE_CODE)) + theme_bw()
 ggplot() + geom_line(data = volve, aes(date,WC,color=WELL_BORE_CODE)) + theme_bw() + coord_cartesian(ylim = c(0,1)) + facet_wrap(~WELL_BORE_CODE)
 ggplot() + geom_line(data = volve, aes(date,GOR,color=WELL_BORE_CODE)) + theme_bw()
+
+#Tambahan untuk data welltesting
